@@ -17,7 +17,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "tsc":"tsc"
+    "tsc":"tsc",
+    "publish": "lerna run tsc && lerna publish"
   },
   "devDependencies": {
     "typescript": "^4.4.4"
