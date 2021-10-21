@@ -16,5 +16,5 @@ function greeter(person : Person) {
 
 let user = new Student("Jane", "M.", "User");
 
-export default greeter(user)
+export default greeter(user);
 
