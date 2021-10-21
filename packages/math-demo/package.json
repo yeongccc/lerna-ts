@@ -1,5 +1,5 @@
 {
-  "name": "@yangyuncc/math-demo",
+  "name": "@yangyuncc/math-demo1",
   "version": "0.0.5",
   "description": "this is a demo.",
   "author": "yangyun",
@@ -23,5 +23,5 @@
   "devDependencies": {
     "typescript": "^4.4.4"
   },
-  "gitHead": "9142e542703c5df552c49b4c5e99364eed54f474"
+  "gitHead": "e3796cc257198918f9b77fa6d8d3afa224056c87"
 }
