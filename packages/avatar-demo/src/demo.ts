@@ -15,9 +15,5 @@ function greeter(person : Person) {
 }
 
 let user = new Student("Jane", "M.", "User");
-
-console.log(greeter(user));
-
-
 export default greeter(user);
 

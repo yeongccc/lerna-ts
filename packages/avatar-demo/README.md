@@ -1,11 +1,11 @@
-# `request-demo`
+# `avatar-demo`
 
 > TODO: description
 
 ## Usage
 
 ```
-const requestDemo = require('request-demo');
+const avatarDemo = require('avatar-demo');
 
 // TODO: DEMONSTRATE API
 ```

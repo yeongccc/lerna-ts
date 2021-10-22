@@ -1,11 +1,11 @@
 {
-  "name": "@yangyuncc/math-demo",
-  "version": "0.0.1",
-  "description": "this is just a demo",
+  "name": "@yangyuncc/avatar-demo",
+  "version": "0.0.0",
+  "description": "> TODO: description",
   "author": "yangyun",
   "homepage": "https://github.com/sleepyangyun/lerna-ts#readme",
   "license": "ISC",
-  "main": "lib/math-demo.js",
+  "main": "lib/avatar-demo.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/sleepyangyun/lerna-ts.git"
   },
   "scripts": {
-     "tsc": "tsc",
+    "tsc":"tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "publishConfig": {
