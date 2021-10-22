@@ -1,6 +1,6 @@
 {
   "name": "@yangyuncc/lerna-package-ts",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "lerna": "^4.0.0"
   },

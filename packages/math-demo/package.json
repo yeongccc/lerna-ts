@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "tsc": "tsc",
@@ -23,5 +24,5 @@
   "devDependencies": {
     "typescript": "^4.4.4"
   },
-  "gitHead": "e3796cc257198918f9b77fa6d8d3afa224056c87"
+  "gitHead": "610b255a575fea2771787974b31f888087f2c857"
 }
