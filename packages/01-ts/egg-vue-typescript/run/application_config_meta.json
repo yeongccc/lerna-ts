@@ -1,0 +1,382 @@
+{
+  "siteFile": {
+    "/favicon.ico": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.default.ts",
+    "cacheControl": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+  },
+  "view": {
+    "cache": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view/config/config.local.js",
+    "root": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js"
+    }
+  },
+  "vuessr": {
+    "layout": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.default.ts",
+    "renderOptions": {
+      "basedir": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.default.ts",
+      "runInNewContext": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js"
+    },
+    "injectCss": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.local.ts",
+    "doctype": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "manifest": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectJs": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectRes": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "crossorigin": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "mergeLocals": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "viewEngine": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "cache": {
+      "max": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js",
+      "maxAge": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js"
+    },
+    "afterRender": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-view-vue-ssr/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.default.ts",
+    "dir": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.default.ts",
+    "encoding": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "env": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "level": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.default.ts",
+    "dir": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.default.ts",
+    "maxAge": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.local.ts",
+    "dynamic": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-static/config/config.default.js"
+  },
+  "keys": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.default.ts",
+  "middleware": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.default.ts",
+  "development": {
+    "ignoreDirs": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.local.ts",
+    "watchDirs": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-development/config/config.default.js"
+  },
+  "logview": {
+    "dir": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.local.ts"
+  },
+  "webpack": {
+    "browser": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.local.ts",
+    "webpackConfigList": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/config.local.ts",
+    "port": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-webpack/config/config.default.js",
+    "proxy": {
+      "host": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-webpack/config/config.default.js",
+      "match": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-webpack/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "cors": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg-cors/config/config.default.js",
+  "env": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "name": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "version": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "description": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "start": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "backend": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "dev": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "debug": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "build": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "clean": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "kill": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "lint": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "fix": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "ii": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "changelog": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@hubcarl/json-typescript-mapper": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "axios": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "egg": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "egg-view-vue-ssr": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "egg-webpack": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "egg-webpack-vue": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "element-ui": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "extend": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "font-awesome": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "lodash-id": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "lowdb": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "moment": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "shortid": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "showdown": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "simplemde": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "vue": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "vue-property-decorator": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "vue-router": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "vuex": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "vuex-class": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "vuex-router-sync": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@easy-team/easywebpack-cli": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "@easy-team/easywebpack-vue": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "@types/lodash": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "@types/lowdb": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "@types/shortid": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "cz-conventional-changelog": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "egg-ts-helper": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "node-tool-utils": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "ts-loader": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "ts-node": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "tslint-loader": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "egg": {
+      "typescript": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "url": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "license": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "homepage": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "config": {
+      "commitizen": {
+        "path": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+      }
+    },
+    "webpack": {
+      "loaders": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "strict": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "depth": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "logging": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "port": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/egg/config/config.default.js"
+}

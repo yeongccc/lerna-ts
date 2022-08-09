@@ -1,0 +1,103 @@
+2022-07-22 15:17:19,731 INFO 43841 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-22 15:17:19,753 INFO 43841 [egg-multipart] stream mode enable
+2022-07-22 15:17:19,911 INFO 43841 [egg-static] starting static serve /public/ -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/public
+2022-07-22 15:17:19,913 INFO 43841 [egg-security] use csrf middleware
+2022-07-22 15:17:19,914 INFO 43841 [egg-security] use methodnoallow middleware
+2022-07-22 15:17:19,915 INFO 43841 [egg-security] use noopen middleware
+2022-07-22 15:17:19,916 INFO 43841 [egg-security] use nosniff middleware
+2022-07-22 15:17:19,917 INFO 43841 [egg-security] use xssProtection middleware
+2022-07-22 15:17:19,918 INFO 43841 [egg-security] use xframe middleware
+2022-07-22 15:17:19,919 INFO 43841 [egg-security] use dta middleware
+2022-07-22 15:17:19,919 INFO 43841 [egg-security] compose 7 middlewares into one security middleware
+2022-07-22 15:17:19,932 INFO 43841 [egg:core] dump config after load, 5ms
+2022-07-22 15:17:19,942 INFO 43841 [egg-watcher:application] watcher start success
+2022-07-22 15:17:19,949 INFO 43841 [egg:core] dump config after ready, 5ms
+2022-07-22 15:17:54,713 INFO 43921 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-22 15:17:54,736 INFO 43921 [egg-multipart] stream mode enable
+2022-07-22 15:17:54,801 INFO 43921 [egg-static] starting static serve /public/ -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/public
+2022-07-22 15:17:54,803 INFO 43921 [egg-security] use csrf middleware
+2022-07-22 15:17:54,804 INFO 43921 [egg-security] use methodnoallow middleware
+2022-07-22 15:17:54,804 INFO 43921 [egg-security] use noopen middleware
+2022-07-22 15:17:54,804 INFO 43921 [egg-security] use nosniff middleware
+2022-07-22 15:17:54,805 INFO 43921 [egg-security] use xssProtection middleware
+2022-07-22 15:17:54,805 INFO 43921 [egg-security] use xframe middleware
+2022-07-22 15:17:54,805 INFO 43921 [egg-security] use dta middleware
+2022-07-22 15:17:54,805 INFO 43921 [egg-security] compose 7 middlewares into one security middleware
+2022-07-22 15:17:54,814 INFO 43921 [egg:core] dump config after load, 4ms
+2022-07-22 15:17:54,823 INFO 43921 [egg-watcher:application] watcher start success
+2022-07-22 15:17:54,830 INFO 43921 [egg:core] dump config after ready, 5ms
+2022-07-22 15:18:49,933 INFO 44091 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-22 15:18:49,959 INFO 44091 [egg-multipart] stream mode enable
+2022-07-22 15:18:50,024 INFO 44091 [egg-static] starting static serve /public/ -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/public
+2022-07-22 15:18:50,026 INFO 44091 [egg-security] use csrf middleware
+2022-07-22 15:18:50,027 INFO 44091 [egg-security] use methodnoallow middleware
+2022-07-22 15:18:50,027 INFO 44091 [egg-security] use noopen middleware
+2022-07-22 15:18:50,028 INFO 44091 [egg-security] use nosniff middleware
+2022-07-22 15:18:50,028 INFO 44091 [egg-security] use xssProtection middleware
+2022-07-22 15:18:50,028 INFO 44091 [egg-security] use xframe middleware
+2022-07-22 15:18:50,028 INFO 44091 [egg-security] use dta middleware
+2022-07-22 15:18:50,028 INFO 44091 [egg-security] compose 7 middlewares into one security middleware
+2022-07-22 15:18:50,038 INFO 44091 [egg:core] dump config after load, 5ms
+2022-07-22 15:18:50,048 INFO 44091 [egg-watcher:application] watcher start success
+2022-07-22 15:18:50,055 INFO 44091 [egg:core] dump config after ready, 5ms
+2022-07-22 15:26:15,506 INFO 44466 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-22 15:26:15,535 INFO 44466 [egg-multipart] stream mode enable
+2022-07-22 15:26:15,700 INFO 44466 [egg-static] starting static serve /public/ -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/public
+2022-07-22 15:26:15,703 INFO 44466 [egg-security] use csrf middleware
+2022-07-22 15:26:15,704 INFO 44466 [egg-security] use methodnoallow middleware
+2022-07-22 15:26:15,705 INFO 44466 [egg-security] use noopen middleware
+2022-07-22 15:26:15,706 INFO 44466 [egg-security] use nosniff middleware
+2022-07-22 15:26:15,708 INFO 44466 [egg-security] use xssProtection middleware
+2022-07-22 15:26:15,709 INFO 44466 [egg-security] use xframe middleware
+2022-07-22 15:26:15,710 INFO 44466 [egg-security] use dta middleware
+2022-07-22 15:26:15,710 INFO 44466 [egg-security] compose 7 middlewares into one security middleware
+2022-07-22 15:26:15,727 INFO 44466 [egg:core] dump config after load, 6ms
+2022-07-22 15:26:15,737 INFO 44466 [egg-watcher:application] watcher start success
+2022-07-22 15:26:15,745 INFO 44466 [egg:core] dump config after ready, 6ms
+2022-07-22 15:30:10,706 INFO 46483 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-22 15:30:10,730 INFO 46483 [egg-multipart] stream mode enable
+2022-07-22 15:30:10,900 INFO 46483 [egg-static] starting static serve /public/ -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/public
+2022-07-22 15:30:10,903 INFO 46483 [egg-security] use csrf middleware
+2022-07-22 15:30:10,904 INFO 46483 [egg-security] use methodnoallow middleware
+2022-07-22 15:30:10,905 INFO 46483 [egg-security] use noopen middleware
+2022-07-22 15:30:10,906 INFO 46483 [egg-security] use nosniff middleware
+2022-07-22 15:30:10,907 INFO 46483 [egg-security] use xssProtection middleware
+2022-07-22 15:30:10,909 INFO 46483 [egg-security] use xframe middleware
+2022-07-22 15:30:10,910 INFO 46483 [egg-security] use dta middleware
+2022-07-22 15:30:10,910 INFO 46483 [egg-security] compose 7 middlewares into one security middleware
+2022-07-22 15:30:10,923 INFO 46483 [egg:core] dump config after load, 4ms
+2022-07-22 15:30:10,938 INFO 46483 [egg-watcher:application] watcher start success
+2022-07-22 15:30:10,945 INFO 46483 [egg:core] dump config after ready, 5ms
+2022-07-22 15:37:14,975 INFO 48831 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-07-22 15:37:15,013 INFO 48831 [egg-multipart] stream mode enable
+2022-07-22 15:37:15,151 INFO 48831 [egg-static] starting static serve /public/ -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/public
+2022-07-22 15:37:15,153 INFO 48831 [egg-security] use csrf middleware
+2022-07-22 15:37:15,155 INFO 48831 [egg-security] use methodnoallow middleware
+2022-07-22 15:37:15,155 INFO 48831 [egg-security] use noopen middleware
+2022-07-22 15:37:15,157 INFO 48831 [egg-security] use nosniff middleware
+2022-07-22 15:37:15,158 INFO 48831 [egg-security] use xssProtection middleware
+2022-07-22 15:37:15,159 INFO 48831 [egg-security] use xframe middleware
+2022-07-22 15:37:15,160 INFO 48831 [egg-security] use dta middleware
+2022-07-22 15:37:15,160 INFO 48831 [egg-security] compose 7 middlewares into one security middleware
+2022-07-22 15:37:15,173 INFO 48831 [egg:core] dump config after load, 6ms
+2022-07-22 15:37:15,186 INFO 48831 [egg-watcher:application] watcher start success
+2022-07-22 15:37:15,193 INFO 48831 [egg:core] dump config after ready, 5ms
+2022-07-22 16:29:07,632 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-22 17:27:49,600 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-22 18:08:32,017 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-22 18:13:47,856 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-22 18:35:53,877 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-22 19:06:52,572 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-22 20:49:08,330 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-22 22:50:08,386 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-23 01:39:35,854 WARN 48831 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-23 01:39:35,854 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-23 03:27:43,293 WARN 48831 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-23 03:27:43,304 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-23 05:15:55,636 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-23 07:08:28,834 WARN 48831 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-23 07:08:28,849 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-23 16:30:58,673 WARN 48831 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-23 23:06:31,658 INFO 48831 [egg-logrotator] clean all log before 31 days
+2022-07-23 23:06:32,516 INFO 48831 [egg-logrotator] broadcast log-reload
+2022-07-23 23:06:32,517 INFO 48831 [egg-logrotator] rotate files success by DayRotator, files ["/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/common-error.log -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/common-error.log.2022-07-22","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/egg-vue-typescript-boilerplate-web.log -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/egg-vue-typescript-boilerplate-web.log.2022-07-22","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/egg-web.log -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/egg-web.log.2022-07-22","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/egg-schedule.log -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/egg-schedule.log.2022-07-22","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/egg-agent.log -> /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs/egg-agent.log.2022-07-22"]

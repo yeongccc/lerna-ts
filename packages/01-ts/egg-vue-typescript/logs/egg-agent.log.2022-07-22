@@ -1,0 +1,478 @@
+2022-07-22 15:17:17,585 INFO 43836 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-22 15:17:17,594 INFO 43836 [egg:core] dump config after load, 6ms
+2022-07-22 15:17:17,633 INFO 43836 [egg-watcher] Start watching: ["/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"]
+2022-07-22 15:17:17,633 INFO 43836 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app"
+2022-07-22 15:17:17,633 INFO 43836 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config"
+2022-07-22 15:17:17,633 INFO 43836 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks"
+2022-07-22 15:17:17,633 INFO 43836 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy"
+2022-07-22 15:17:17,633 INFO 43836 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"
+2022-07-22 15:17:17,633 INFO 43836 [egg-watcher:agent] watcher start success
+2022-07-22 15:17:17,651 INFO 43836 [egg:core] dump config after ready, 14ms
+2022-07-22 15:17:20,354 ERROR 43836 nodejs.unhandledExceptionError: Rule can only have one resource source (provided resource and test + include + exclude) in {
+  "exclude": [],
+  "use": [
+    {
+      "loader": "cache-loader",
+      "options": {
+        "cacheDirectory": "/var/folders/z2/61v76ls54pzbk1lfs4f9dlr40000gn/T/easywebpack/egg-vue-typescript-boilerplate/dev/cache/client/cache-loader"
+      },
+      "ident": "clonedRuleSet-1.use[0]"
+    },
+    {
+      "loader": "thread-loader",
+      "options": {},
+      "ident": "clonedRuleSet-1.use[1]"
+    },
+    {
+      "loader": "ts-loader",
+      "options": {
+        "happyPackMode": true,
+        "configFile": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/tsconfig.json",
+        "appendTsSuffixTo": [
+          {}
+        ]
+      },
+      "ident": "clonedRuleSet-1.use[2]"
+    }
+  ]
+}
+  "exclude": [],
+  "use": [
+    {
+      "loader": "cache-loader",
+      "options": {
+        "cacheDirectory": "/var/folders/z2/61v76ls54pzbk1lfs4f9dlr40000gn/T/easywebpack/egg-vue-typescript-boilerplate/dev/cache/client/cache-loader"
+      },
+      "ident": "clonedRuleSet-1.use[0]"
+    },
+    {
+      "loader": "thread-loader",
+      "options": {},
+      "ident": "clonedRuleSet-1.use[1]"
+    },
+    {
+      "loader": "ts-loader",
+      "options": {
+        "happyPackMode": true,
+        "configFile": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/tsconfig.json",
+        "appendTsSuffixTo": [
+          {}
+        ]
+      },
+      "ident": "clonedRuleSet-1.use[2]"
+    }
+  ]
+}
+    at checkResourceSource (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:167:11)
+    at Function.normalizeRule (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:198:4)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:110:20
+    at Array.map (<anonymous>)
+    at Function.normalizeRules (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:109:17)
+    at new RuleSet (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:104:24)
+    at new NormalModuleFactory (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/NormalModuleFactory.js:115:18)
+    at Compiler.createNormalModuleFactory (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:636:31)
+    at Compiler.newCompilationParams (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:653:30)
+    at Compiler.compile (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:661:23)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:77:18
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:22:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/tapable/lib/Hook.js:154:20)
+    at Watching._go (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:41:32)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:33:9
+    at Compiler.readRecords (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:529:11)
+name: "unhandledExceptionError"
+pid: 43836
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 15:17:52,591 INFO 43836 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/router.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757829,"size":533,"blocks":8,"atimeMs":1658474272561.7693,"mtimeMs":1658474272529.2803,"ctimeMs":1658474272529.2803,"birthtimeMs":1658474091324.4373,"atime":"2022-07-22T07:17:52.562Z","mtime":"2022-07-22T07:17:52.529Z","ctime":"2022-07-22T07:17:52.529Z","birthtime":"2022-07-22T07:14:51.324Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:17:52,793 WARN 43836 [agent:development] reload worker because /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/router.ts change
+2022-07-22 15:18:35,827 INFO 43836 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/component/MarkdownEditor/index.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757861,"size":1659,"blocks":8,"atimeMs":1658474315799.0215,"mtimeMs":1658474315766.2751,"ctimeMs":1658474315766.2751,"birthtimeMs":1658474091339.8162,"atime":"2022-07-22T07:18:35.799Z","mtime":"2022-07-22T07:18:35.766Z","ctime":"2022-07-22T07:18:35.766Z","birthtime":"2022-07-22T07:14:51.340Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:18:48,039 INFO 44083 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-22 15:18:48,047 INFO 44083 [egg:core] dump config after load, 4ms
+2022-07-22 15:18:48,073 INFO 44083 [egg-watcher] Start watching: ["/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"]
+2022-07-22 15:18:48,073 INFO 44083 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app"
+2022-07-22 15:18:48,073 INFO 44083 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config"
+2022-07-22 15:18:48,073 INFO 44083 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks"
+2022-07-22 15:18:48,073 INFO 44083 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy"
+2022-07-22 15:18:48,073 INFO 44083 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"
+2022-07-22 15:18:48,074 INFO 44083 [egg-watcher:agent] watcher start success
+2022-07-22 15:18:48,085 INFO 44083 [egg:core] dump config after ready, 5ms
+2022-07-22 15:18:50,256 ERROR 44083 nodejs.unhandledExceptionError: Rule can only have one resource source (provided resource and test + include + exclude) in {
+  "exclude": [],
+  "use": [
+    {
+      "loader": "cache-loader",
+      "options": {
+        "cacheDirectory": "/var/folders/z2/61v76ls54pzbk1lfs4f9dlr40000gn/T/easywebpack/egg-vue-typescript-boilerplate/dev/cache/client/cache-loader"
+      },
+      "ident": "clonedRuleSet-1.use[0]"
+    },
+    {
+      "loader": "thread-loader",
+      "options": {},
+      "ident": "clonedRuleSet-1.use[1]"
+    },
+    {
+      "loader": "ts-loader",
+      "options": {
+        "happyPackMode": true,
+        "configFile": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/tsconfig.json",
+        "appendTsSuffixTo": [
+          {}
+        ]
+      },
+      "ident": "clonedRuleSet-1.use[2]"
+    }
+  ]
+}
+  "exclude": [],
+  "use": [
+    {
+      "loader": "cache-loader",
+      "options": {
+        "cacheDirectory": "/var/folders/z2/61v76ls54pzbk1lfs4f9dlr40000gn/T/easywebpack/egg-vue-typescript-boilerplate/dev/cache/client/cache-loader"
+      },
+      "ident": "clonedRuleSet-1.use[0]"
+    },
+    {
+      "loader": "thread-loader",
+      "options": {},
+      "ident": "clonedRuleSet-1.use[1]"
+    },
+    {
+      "loader": "ts-loader",
+      "options": {
+        "happyPackMode": true,
+        "configFile": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/tsconfig.json",
+        "appendTsSuffixTo": [
+          {}
+        ]
+      },
+      "ident": "clonedRuleSet-1.use[2]"
+    }
+  ]
+}
+    at checkResourceSource (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:167:11)
+    at Function.normalizeRule (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:198:4)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:110:20
+    at Array.map (<anonymous>)
+    at Function.normalizeRules (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:109:17)
+    at new RuleSet (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:104:24)
+    at new NormalModuleFactory (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/NormalModuleFactory.js:115:18)
+    at Compiler.createNormalModuleFactory (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:636:31)
+    at Compiler.newCompilationParams (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:653:30)
+    at Compiler.compile (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:661:23)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:77:18
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:22:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/tapable/lib/Hook.js:154:20)
+    at Watching._go (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:41:32)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:33:9
+    at Compiler.readRecords (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:529:11)
+name: "unhandledExceptionError"
+pid: 44083
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 15:26:13,260 INFO 44462 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-22 15:26:13,268 INFO 44462 [egg:core] dump config after load, 4ms
+2022-07-22 15:26:13,316 INFO 44462 [egg-watcher] Start watching: ["/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"]
+2022-07-22 15:26:13,316 INFO 44462 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app"
+2022-07-22 15:26:13,316 INFO 44462 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config"
+2022-07-22 15:26:13,317 INFO 44462 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks"
+2022-07-22 15:26:13,317 INFO 44462 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy"
+2022-07-22 15:26:13,317 INFO 44462 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"
+2022-07-22 15:26:13,317 INFO 44462 [egg-watcher:agent] watcher start success
+2022-07-22 15:26:13,330 INFO 44462 [egg:core] dump config after ready, 7ms
+2022-07-22 15:26:16,149 ERROR 44462 nodejs.unhandledExceptionError: Rule can only have one resource source (provided resource and test + include + exclude) in {
+  "exclude": [],
+  "use": [
+    {
+      "loader": "cache-loader",
+      "options": {
+        "cacheDirectory": "/var/folders/z2/61v76ls54pzbk1lfs4f9dlr40000gn/T/easywebpack/egg-vue-typescript-boilerplate/dev/cache/client/cache-loader"
+      },
+      "ident": "clonedRuleSet-1.use[0]"
+    },
+    {
+      "loader": "thread-loader",
+      "options": {},
+      "ident": "clonedRuleSet-1.use[1]"
+    },
+    {
+      "loader": "ts-loader",
+      "options": {
+        "happyPackMode": true,
+        "configFile": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/tsconfig.json",
+        "appendTsSuffixTo": [
+          {}
+        ]
+      },
+      "ident": "clonedRuleSet-1.use[2]"
+    }
+  ]
+}
+  "exclude": [],
+  "use": [
+    {
+      "loader": "cache-loader",
+      "options": {
+        "cacheDirectory": "/var/folders/z2/61v76ls54pzbk1lfs4f9dlr40000gn/T/easywebpack/egg-vue-typescript-boilerplate/dev/cache/client/cache-loader"
+      },
+      "ident": "clonedRuleSet-1.use[0]"
+    },
+    {
+      "loader": "thread-loader",
+      "options": {},
+      "ident": "clonedRuleSet-1.use[1]"
+    },
+    {
+      "loader": "ts-loader",
+      "options": {
+        "happyPackMode": true,
+        "configFile": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/tsconfig.json",
+        "appendTsSuffixTo": [
+          {}
+        ]
+      },
+      "ident": "clonedRuleSet-1.use[2]"
+    }
+  ]
+}
+    at checkResourceSource (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:167:11)
+    at Function.normalizeRule (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:198:4)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:110:20
+    at Array.map (<anonymous>)
+    at Function.normalizeRules (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:109:17)
+    at new RuleSet (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:104:24)
+    at new NormalModuleFactory (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/NormalModuleFactory.js:115:18)
+    at Compiler.createNormalModuleFactory (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:636:31)
+    at Compiler.newCompilationParams (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:653:30)
+    at Compiler.compile (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:661:23)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:77:18
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:22:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/tapable/lib/Hook.js:154:20)
+    at Watching._go (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:41:32)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:33:9
+    at Compiler.readRecords (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:529:11)
+name: "unhandledExceptionError"
+pid: 44462
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 15:30:08,465 INFO 46476 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-22 15:30:08,474 INFO 46476 [egg:core] dump config after load, 4ms
+2022-07-22 15:30:08,521 INFO 46476 [egg-watcher] Start watching: ["/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"]
+2022-07-22 15:30:08,521 INFO 46476 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app"
+2022-07-22 15:30:08,521 INFO 46476 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config"
+2022-07-22 15:30:08,521 INFO 46476 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks"
+2022-07-22 15:30:08,521 INFO 46476 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy"
+2022-07-22 15:30:08,522 INFO 46476 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"
+2022-07-22 15:30:08,522 INFO 46476 [egg-watcher:agent] watcher start success
+2022-07-22 15:30:08,534 INFO 46476 [egg:core] dump config after ready, 5ms
+2022-07-22 15:30:11,354 ERROR 46476 nodejs.unhandledExceptionError: Rule can only have one resource source (provided resource and test + include + exclude) in {
+  "exclude": [],
+  "use": [
+    {
+      "loader": "cache-loader",
+      "options": {
+        "cacheDirectory": "/var/folders/z2/61v76ls54pzbk1lfs4f9dlr40000gn/T/easywebpack/egg-vue-typescript-boilerplate/dev/cache/client/cache-loader"
+      },
+      "ident": "clonedRuleSet-1.use[0]"
+    },
+    {
+      "loader": "thread-loader",
+      "options": {},
+      "ident": "clonedRuleSet-1.use[1]"
+    },
+    {
+      "loader": "ts-loader",
+      "options": {
+        "happyPackMode": true,
+        "configFile": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/tsconfig.json",
+        "appendTsSuffixTo": [
+          {}
+        ]
+      },
+      "ident": "clonedRuleSet-1.use[2]"
+    }
+  ]
+}
+  "exclude": [],
+  "use": [
+    {
+      "loader": "cache-loader",
+      "options": {
+        "cacheDirectory": "/var/folders/z2/61v76ls54pzbk1lfs4f9dlr40000gn/T/easywebpack/egg-vue-typescript-boilerplate/dev/cache/client/cache-loader"
+      },
+      "ident": "clonedRuleSet-1.use[0]"
+    },
+    {
+      "loader": "thread-loader",
+      "options": {},
+      "ident": "clonedRuleSet-1.use[1]"
+    },
+    {
+      "loader": "ts-loader",
+      "options": {
+        "happyPackMode": true,
+        "configFile": "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/tsconfig.json",
+        "appendTsSuffixTo": [
+          {}
+        ]
+      },
+      "ident": "clonedRuleSet-1.use[2]"
+    }
+  ]
+}
+    at checkResourceSource (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:167:11)
+    at Function.normalizeRule (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:198:4)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:110:20
+    at Array.map (<anonymous>)
+    at Function.normalizeRules (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:109:17)
+    at new RuleSet (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/RuleSet.js:104:24)
+    at new NormalModuleFactory (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/NormalModuleFactory.js:115:18)
+    at Compiler.createNormalModuleFactory (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:636:31)
+    at Compiler.newCompilationParams (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:653:30)
+    at Compiler.compile (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:661:23)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:77:18
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:24:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/tapable/lib/Hook.js:154:20)
+    at Watching._go (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:41:32)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Watching.js:33:9
+    at Compiler.readRecords (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/webpack/lib/Compiler.js:529:11)
+name: "unhandledExceptionError"
+pid: 46476
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 15:37:12,435 INFO 48825 [egg:logger] init all loggers with options: {"dir":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-typescript-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-07-22 15:37:12,462 INFO 48825 [egg:core] dump config after load, 22ms
+2022-07-22 15:37:12,514 INFO 48825 [egg-watcher] Start watching: ["/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy","/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"]
+2022-07-22 15:37:12,514 INFO 48825 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app"
+2022-07-22 15:37:12,515 INFO 48825 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config"
+2022-07-22 15:37:12,515 INFO 48825 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks"
+2022-07-22 15:37:12,515 INFO 48825 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/mocks_proxy"
+2022-07-22 15:37:12,515 INFO 48825 [egg-watcher] Start watching: "/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app.js"
+2022-07-22 15:37:12,516 INFO 48825 [egg-watcher:agent] watcher start success
+2022-07-22 15:37:12,529 INFO 48825 [egg:core] dump config after ready, 6ms
+2022-07-22 15:37:21,884 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475441867.205,"mtimeMs":1658475441867.3958,"ctimeMs":1658475441867.3958,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:37:21.867Z","mtime":"2022-07-22T07:37:21.867Z","ctime":"2022-07-22T07:37:21.867Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:38:56,789 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":373,"blocks":8,"atimeMs":1658475536759.6943,"mtimeMs":1658475536729.3298,"ctimeMs":1658475536729.3298,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:38:56.760Z","mtime":"2022-07-22T07:38:56.729Z","ctime":"2022-07-22T07:38:56.729Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:38:57,299 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475537284.3318,"mtimeMs":1658475537284.591,"ctimeMs":1658475537284.591,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:38:57.284Z","mtime":"2022-07-22T07:38:57.285Z","ctime":"2022-07-22T07:38:57.285Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:39:23,828 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":424,"blocks":8,"atimeMs":1658475563801.9424,"mtimeMs":1658475563765.9802,"ctimeMs":1658475563765.9802,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:39:23.802Z","mtime":"2022-07-22T07:39:23.766Z","ctime":"2022-07-22T07:39:23.766Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:39:24,373 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475537284.3318,"mtimeMs":1658475564335.5078,"ctimeMs":1658475564335.5078,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:38:57.284Z","mtime":"2022-07-22T07:39:24.336Z","ctime":"2022-07-22T07:39:24.336Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:39:39,558 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":423,"blocks":8,"atimeMs":1658475579557.8096,"mtimeMs":1658475579496.894,"ctimeMs":1658475579496.894,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:39:39.558Z","mtime":"2022-07-22T07:39:39.497Z","ctime":"2022-07-22T07:39:39.497Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:39:39,667 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":423,"blocks":8,"atimeMs":1658475579557.8096,"mtimeMs":1658475579656.1567,"ctimeMs":1658475579656.1567,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:39:39.558Z","mtime":"2022-07-22T07:39:39.656Z","ctime":"2022-07-22T07:39:39.656Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:39:39,728 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":423,"blocks":8,"atimeMs":1658475579557.8096,"mtimeMs":1658475579656.1567,"ctimeMs":1658475579656.1567,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:39:39.558Z","mtime":"2022-07-22T07:39:39.656Z","ctime":"2022-07-22T07:39:39.656Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:39:40,085 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475537284.3318,"mtimeMs":1658475580016.827,"ctimeMs":1658475580016.827,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:38:57.284Z","mtime":"2022-07-22T07:39:40.017Z","ctime":"2022-07-22T07:39:40.017Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:40:00,423 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":424,"blocks":8,"atimeMs":1658475600422.793,"mtimeMs":1658475600361.0476,"ctimeMs":1658475600361.0476,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:40:00.423Z","mtime":"2022-07-22T07:40:00.361Z","ctime":"2022-07-22T07:40:00.361Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:40:00,862 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475537284.3318,"mtimeMs":1658475600809.361,"ctimeMs":1658475600809.361,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:38:57.284Z","mtime":"2022-07-22T07:40:00.809Z","ctime":"2022-07-22T07:40:00.809Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:40:48,883 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":466,"blocks":8,"atimeMs":1658475648883.063,"mtimeMs":1658475648822.34,"ctimeMs":1658475648822.34,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:40:48.883Z","mtime":"2022-07-22T07:40:48.822Z","ctime":"2022-07-22T07:40:48.822Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:40:49,497 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475537284.3318,"mtimeMs":1658475649416.614,"ctimeMs":1658475649416.614,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:38:57.284Z","mtime":"2022-07-22T07:40:49.417Z","ctime":"2022-07-22T07:40:49.417Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:41:41,997 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":465,"blocks":8,"atimeMs":1658475701976.939,"mtimeMs":1658475701928.0354,"ctimeMs":1658475701928.0354,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:41:41.977Z","mtime":"2022-07-22T07:41:41.928Z","ctime":"2022-07-22T07:41:41.928Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:41:42,608 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475537284.3318,"mtimeMs":1658475702561.5938,"ctimeMs":1658475702561.5938,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:38:57.284Z","mtime":"2022-07-22T07:41:42.562Z","ctime":"2022-07-22T07:41:42.562Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:42:32,090 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":468,"blocks":8,"atimeMs":1658475752088.6685,"mtimeMs":1658475752028.3396,"ctimeMs":1658475752028.3396,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:42:32.089Z","mtime":"2022-07-22T07:42:32.028Z","ctime":"2022-07-22T07:42:32.028Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:42:32,679 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475537284.3318,"mtimeMs":1658475752601.827,"ctimeMs":1658475752601.827,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:38:57.284Z","mtime":"2022-07-22T07:42:32.602Z","ctime":"2022-07-22T07:42:32.602Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:43:21,806 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":430,"blocks":8,"atimeMs":1658475801805.7515,"mtimeMs":1658475801745.2375,"ctimeMs":1658475801745.2375,"birthtimeMs":1658474091360.5076,"atime":"2022-07-22T07:43:21.806Z","mtime":"2022-07-22T07:43:21.745Z","ctime":"2022-07-22T07:43:21.745Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 15:43:22,301 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475537284.3318,"mtimeMs":1658475802276.187,"ctimeMs":1658475802276.187,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:38:57.284Z","mtime":"2022-07-22T07:43:22.276Z","ctime":"2022-07-22T07:43:22.276Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-22 16:29:08,384 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 1292459ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 17:27:49,601 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 80865ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 18:08:32,017 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 2402389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 18:13:47,857 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 155870ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 18:35:53,877 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 925979ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 19:06:52,572 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 1718637ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 20:49:08,330 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 6095768ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-22 22:50:08,387 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 7197070ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-23 01:39:35,850 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 3678703ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-23 03:27:43,315 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 6487232ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-23 05:15:55,637 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 6492291ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-23 07:08:28,848 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 6752934ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-23 16:30:58,675 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 33729582ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-23 22:23:57,671 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/app/web/page/admin/login/login.ts","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84757918,"size":456,"blocks":8,"atimeMs":1658586237640.0845,"mtimeMs":1658586237578.875,"ctimeMs":1658586237578.875,"birthtimeMs":1658474091360.5076,"atime":"2022-07-23T14:23:57.640Z","mtime":"2022-07-23T14:23:57.579Z","ctime":"2022-07-23T14:23:57.579Z","birthtime":"2022-07-22T07:14:51.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-07-23 22:23:58,586 INFO 48825 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/config/manifest.json","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":84964825,"size":1001,"blocks":8,"atimeMs":1658475537284.3318,"mtimeMs":1658586238567.6245,"ctimeMs":1658586238567.6245,"birthtimeMs":1658475441867.205,"atime":"2022-07-22T07:38:57.284Z","mtime":"2022-07-23T14:23:58.568Z","ctime":"2022-07-23T14:23:58.568Z","birthtime":"2022-07-22T07:37:21.867Z"},"remove":false,"isDirectory":false,"isFile":true}

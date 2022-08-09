@@ -1,0 +1,20 @@
+2022-07-22 15:38:17,881 INFO 48831 [-/127.0.0.1/-/113ms GET /] [access] 127.0.0.1: - GET / HTTP/200 2553 - 105 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+2022-07-22 15:39:02,382 INFO 48831 [-/127.0.0.1/-/20ms GET /] [access] 127.0.0.1: - GET / HTTP/200 2555 - 20 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+2022-07-22 15:39:27,162 INFO 48831 [-/127.0.0.1/-/23ms GET /] [access] 127.0.0.1: - GET / HTTP/200 2555 - 21 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+2022-07-22 15:39:36,172 INFO 48831 [-/127.0.0.1/-/33ms GET /] [access] 127.0.0.1: - GET / HTTP/200 2555 - 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+2022-07-22 15:39:41,662 INFO 48831 [-/127.0.0.1/-/22ms GET /] [access] 127.0.0.1: - GET / HTTP/200 2553 - 21 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+2022-07-22 15:40:04,577 INFO 48831 [-/127.0.0.1/-/21ms GET /] [access] 127.0.0.1: - GET / HTTP/200 2553 - 19 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+2022-07-22 15:40:51,811 INFO 48831 [-/127.0.0.1/-/24ms GET /] [access] 127.0.0.1: - GET / HTTP/200 2553 - 23 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+2022-07-22 15:41:45,982 ERROR 48831 [admin/login.js] server render bundle error, try client render, the server render error ReferenceError: keyof is not defined
+    at VueComponent.Login.created (webpack:///./app/web/page/admin/login/login.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:24:27)
+    at invokeWithErrorHandling (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/vue/dist/vue.runtime.common.dev.js:2890:61)
+    at callHook$1 (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/vue/dist/vue.runtime.common.dev.js:3940:13)
+    at VueComponent.Vue._init (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/vue/dist/vue.runtime.common.dev.js:5560:9)
+    at new VueComponent (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/vue/dist/vue.runtime.common.dev.js:5693:18)
+    at eval (webpack:///./app/web/page/admin/login/login.vue?./node_modules/babel-loader/lib?%7B%22cacheDirectory%22:%22/var/folders/z2/61v76ls54pzbk1lfs4f9dlr40000gn/T/easywebpack/egg-vue-typescript-boilerplate/dev/cache/server/babel-loader%22,%22presets%22:%5B%5B%22@babel/preset-env%22,%7B%22modules%22:false,%22targets%22:%7B%22node%22:%22current%22%7D%7D%5D%5D%7D!./node_modules/vue-entry-loader?templateFile=,renderMode=ssr:64:10)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/vue-server-renderer/build.dev.js:8030:21
+    at new Promise (<anonymous>)
+    at /Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/vue-server-renderer/build.dev.js:7993:38
+    at Object.renderToString (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/vue-server-renderer/build.dev.js:8141:17)
+2022-07-22 15:41:45,994 INFO 48831 [-/127.0.0.1/-/39ms GET /] [access] 127.0.0.1: - GET / HTTP/200 919 - 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+2022-07-22 15:42:35,496 INFO 48831 [-/127.0.0.1/-/18ms GET /] [access] 127.0.0.1: - GET / HTTP/200 2553 - 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36

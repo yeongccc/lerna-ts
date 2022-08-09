@@ -1,0 +1,17 @@
+2022-07-24 00:00:01,059 INFO 48825 [egg-logrotator] agent logger reload: got log-reload message
+2022-07-24 12:57:23,062 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 16318084ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
+2022-07-24 14:22:14,407 ERROR 48825 nodejs.ClusterClientNoResponseError: client no response in 317051ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyun/project/my/practiceWebpack/packages/01-ts/egg-vue-typescript/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 48825
+hostname: yangyundeMacBook-Pro.local
+
